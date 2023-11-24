@@ -242,3 +242,5 @@ A computer vision class project by HU Shiyu to apply the color pop effect on peo
 
 
 오픈소스 첫번째 과제
+MASK RCNN 를 사용하여 로컬 환경에서 MASK RCNN를 실행 시켜 보았습니다. 
+우선 예제로 3개의 사진에 대해서 MASK RCNN를 진행하였고, 이를 깃허브에 같이 업로드 하였습니다. MASK RCNN의 결과는 어떤 사진속에 풍선을 찾아 색을 입히는 과정인데, 실제로 학습 결과 사진에 있는 풍선에 색이 칠해진 것을 알 수 있습니다. 과제를 진행하면서, docker 대신 로컬환경에서 학습을 진행 하였으며, 학습을 위해 아나콘다의 가상환경에 tensorflow-gpu(tensorflow의 cpu가 아닌 gpu버전), keras 그리고 가중치 모델을 다운로드하여 환경을 구축하였습니다.
